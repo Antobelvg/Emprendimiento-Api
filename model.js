@@ -4,7 +4,7 @@ let bcrypt = require('bcryptjs');
 mongoose.Promise = global.Promise;
 
 
-let ejercicioSchema = mongoose.Schema({
+let emprendimientoSchema = mongoose.Schema({
 	nombre: { type : String },
 	nivel: { type : Number },
 	tiempoInicio: {type : Number},
@@ -22,7 +22,7 @@ let ejercicioSchema = mongoose.Schema({
 // 				 required : true }
 // })
 
-let Vicepresidencia = mongoose.model( 'ejercicios', ejercicioSchema );
+let Vicepresidencia = mongoose.model( 'ejercicios', emprendimientoSchema );
 // let User = mongoose.model( 'User', userSchema );
 
 // let UserList = {
