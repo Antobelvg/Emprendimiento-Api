@@ -22,7 +22,7 @@ let emprendimientoSchema = mongoose.Schema({
 // 				 required : true }
 // })
 
-let Vicepresidencia = mongoose.model( 'usuarioss', emprendimientoSchema );
+let Vicepresidencia = mongoose.model( 'usuarios', emprendimientoSchema );
 // let User = mongoose.model( 'User', userSchema );
 
 // let UserList = {
